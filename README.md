@@ -1,4 +1,4 @@
-### Hi there 👋
+![Ramon Guilherme Stats](https://github-readme-stats.vercel.app/api?username=ram0ng1&show_icons=true)
 
 <!--
 **ram0ng1/ram0ng1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
