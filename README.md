@@ -1,9 +1,1 @@
-<h1 align="center">Hi 👋, I'm Ramon Guilherme</h1>
-
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/souram0n" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="souram0n" height="30" width="40" /></a>
-<a href="https://fb.com/ram0ng1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="ram0ng1" height="30" width="40" /></a>
-<a href="https://instagram.com/ram0ng1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="ram0ng1" height="30" width="40" /></a>
-</p>
+![Metrics](https://metrics.lecoq.io/ram0ng1?template=classic&activity=1&introduction=1&pagespeed=1&rss=1&base.indepth=false&base.hireable=false&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=public&activity.timestamps=false&activity.filter=all&introduction.title=false&pagespeed.url=https%3A%2F%2Framonguilherme.com.br&pagespeed.detailed=true&pagespeed.screenshot=false&pagespeed.pwa=false&rss.source=https%3A%2F%2Framonguilherme.com.br%2Frss&rss.limit=4&config.timezone=America%2FSao_Paulo)
