@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Green Core animated mark — one-shot (primary)">
+  <title>Green Core animated mark — one-shot (primary)</title>
+  <style><![CDATA[
+    /* Smooth one-shot bloom: rosette scales up + leaves fade in cascaded */
+    .rosette {
+      transform-origin: 0px 0px;
+      transform: scale(0.5);
+      opacity: 0;
+      animation: rosette-bloom 1.4s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+    }
+    @keyframes rosette-bloom {
+      0%   { transform: scale(0.5); opacity: 0; }
+      40%  { opacity: 1; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    .gc-leaf {
+      opacity: 0;
+      animation: gc-leaf-in 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    }
+    @keyframes gc-leaf-in {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    .gc-veins {
+      opacity: 0;
+      animation: gc-veins-in 0.8s ease-out forwards;
+    }
+    @keyframes gc-veins-in {
+      from { opacity: 0; }
+      to   { opacity: 0.55; }
+    }
+    .gc-leaf.d1  { animation-delay: 0.10s; }
+    .gc-leaf.d2  { animation-delay: 0.22s; }
+    .gc-leaf.d3  { animation-delay: 0.34s; }
+    .gc-leaf.d4  { animation-delay: 0.46s; }
+    .gc-leaf.d5  { animation-delay: 0.58s; }
+    .gc-leaf.d6  { animation-delay: 0.70s; }
+    .gc-veins.d1 { animation-delay: 0.45s; }
+    .gc-veins.d2 { animation-delay: 0.57s; }
+    .gc-veins.d3 { animation-delay: 0.69s; }
+    .gc-veins.d4 { animation-delay: 0.81s; }
+    .gc-veins.d5 { animation-delay: 0.93s; }
+    .gc-veins.d6 { animation-delay: 1.05s; }
+    @media (prefers-reduced-motion: reduce) {
+      .rosette  { transform: none; opacity: 1; animation: none; }
+      .gc-leaf  { opacity: 1; animation: none; }
+      .gc-veins { opacity: 0.55; animation: none; }
+    }
+  ]]></style>
+  <g transform="translate(300 300)">
+    <g class="rosette">
+      <g transform="rotate(-100)">
+        <path class="gc-leaf d1" fill="#1F5E37" d="M 0 0 C 60 -150, 210 -160, 258 -88 C 292 -32, 270 42, 200 78 C 150 98, 100 92, 60 72 C 20 52, -5 18, 0 0 Z"/>
+        <path class="gc-veins d1" fill="none" stroke="#0E3A22" stroke-width="2.6" stroke-linecap="round" d="M 40 -10 C 100 -80, 185 -110, 240 -75 M 70 12 C 130 -50, 200 -70, 234 -38 M 92 38 C 142 -10, 200 -22, 222 -2 M 96 60 C 145 32, 195 28, 212 40"/>
+      </g>
+      <g transform="rotate(-40)">
+        <path class="gc-leaf d2" fill="#5BA646" d="M 0 0 C 60 -150, 210 -160, 258 -88 C 292 -32, 270 42, 200 78 C 150 98, 100 92, 60 72 C 20 52, -5 18, 0 0 Z"/>
+        <path class="gc-veins d2" fill="none" stroke="#1F5E37" stroke-width="2.6" stroke-linecap="round" d="M 40 -10 C 100 -80, 185 -110, 240 -75 M 70 12 C 130 -50, 200 -70, 234 -38 M 92 38 C 142 -10, 200 -22, 222 -2 M 96 60 C 145 32, 195 28, 212 40"/>
+      </g>
+      <g transform="rotate(20)">
+        <path class="gc-leaf d3" fill="#2E7D43" d="M 0 0 C 60 -150, 210 -160, 258 -88 C 292 -32, 270 42, 200 78 C 150 98, 100 92, 60 72 C 20 52, -5 18, 0 0 Z"/>
+        <path class="gc-veins d3" fill="none" stroke="#0E3A22" stroke-width="2.6" stroke-linecap="round" d="M 40 -10 C 100 -80, 185 -110, 240 -75 M 70 12 C 130 -50, 200 -70, 234 -38 M 92 38 C 142 -10, 200 -22, 222 -2 M 96 60 C 145 32, 195 28, 212 40"/>
+      </g>
+      <g transform="rotate(80)">
+        <path class="gc-leaf d4" fill="#5BA646" d="M 0 0 C 60 -150, 210 -160, 258 -88 C 292 -32, 270 42, 200 78 C 150 98, 100 92, 60 72 C 20 52, -5 18, 0 0 Z"/>
+        <path class="gc-veins d4" fill="none" stroke="#1F5E37" stroke-width="2.6" stroke-linecap="round" d="M 40 -10 C 100 -80, 185 -110, 240 -75 M 70 12 C 130 -50, 200 -70, 234 -38 M 92 38 C 142 -10, 200 -22, 222 -2 M 96 60 C 145 32, 195 28, 212 40"/>
+      </g>
+      <g transform="rotate(140)">
+        <path class="gc-leaf d5" fill="#1F5E37" d="M 0 0 C 60 -150, 210 -160, 258 -88 C 292 -32, 270 42, 200 78 C 150 98, 100 92, 60 72 C 20 52, -5 18, 0 0 Z"/>
+        <path class="gc-veins d5" fill="none" stroke="#0E3A22" stroke-width="2.6" stroke-linecap="round" d="M 40 -10 C 100 -80, 185 -110, 240 -75 M 70 12 C 130 -50, 200 -70, 234 -38 M 92 38 C 142 -10, 200 -22, 222 -2 M 96 60 C 145 32, 195 28, 212 40"/>
+      </g>
+      <g transform="rotate(200)">
+        <path class="gc-leaf d6" fill="#2E7D43" d="M 0 0 C 60 -150, 210 -160, 258 -88 C 292 -32, 270 42, 200 78 C 150 98, 100 92, 60 72 C 20 52, -5 18, 0 0 Z"/>
+        <path class="gc-veins d6" fill="none" stroke="#0E3A22" stroke-width="2.6" stroke-linecap="round" d="M 40 -10 C 100 -80, 185 -110, 240 -75 M 70 12 C 130 -50, 200 -70, 234 -38 M 92 38 C 142 -10, 200 -22, 222 -2 M 96 60 C 145 32, 195 28, 212 40"/>
+      </g>
+    </g>
+  </g>
+</svg>
